@@ -1,5 +1,12 @@
 @media (max-width: 450px) {
+  html {
+    width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+  }
   body {
+    width: 100%;
+    max-width: 100%;
     overflow-x: hidden;
   }
   .header__logo {
@@ -52,6 +59,10 @@
     -webkit-clip-path: polygon(0 0, 100% 0, 100% 51%, 0 82%);
             clip-path: polygon(0 0, 100% 0, 100% 51%, 0 82%);
   }
+  .firstscreen ul.menu__list {
+    z-index: 20;
+    height: 900px;
+  }
   .stack .first-block {
     height: 50px;
   }
@@ -95,6 +106,10 @@
     margin-top: 9px;
     margin-left: 8px;
   }
+  .services {
+    display: flex;
+    justify-content: center;
+  }
   .services .head {
     margin-top: 100px;
     font-family: "Montserrat";
@@ -115,7 +130,6 @@
     background: rgba(255, 255, 255, 0.05);
     box-shadow: 4px 4px 50px rgba(0, 0, 0, 0.25);
     border-radius: 30px;
-    margin-left: 11px;
   }
   .services .cat .cat-item .main {
     width: 163px;
@@ -227,6 +241,9 @@
     text-align: center;
     color: #FFFFFF;
   }
+  .work .components {
+    background: rgba(54, 54, 70, 0.8);
+  }
   .work .components .head {
     font-family: "Montserrat";
     font-style: normal;
@@ -234,14 +251,22 @@
     font-size: 28px;
     line-height: 34px;
     color: #FFFFFF;
+    margin-bottom: 60px;
   }
   .work .components .key {
-    width: 400px;
+    width: 100%;
     margin-left: 0px;
     border-radius: 0px;
+    margin-bottom: 0px;
+    background: rgba(255, 255, 255, 0);
+    margin-bottom: 60px;
+    height: 500px;
+    padding: 20px;
   }
   .work .components .key .work-text {
-    margin-left: 0px;
+    width: 400px;
+    margin-left: 30px;
+    margin-top: 30px;
   }
   .work .components .key .work-text h1 {
     font-family: "Montserrat";
@@ -263,11 +288,6 @@
     text-align: justify;
     color: #FFFFFF;
   }
-  .work .components .key .work-text .zayav {
-    width: 250px;
-    height: 50px;
-    left: 20px;
-  }
   .work .components .key .work-text .zayav a {
     font-family: "Montserrat";
     font-style: normal;
@@ -281,12 +301,15 @@
     display: none;
   }
   .work .components .it-out {
-    width: 400px;
+    width: 100%;
     margin-left: 0px;
     border-radius: 0px;
+    background: rgba(255, 255, 255, 0);
+    height: 500px;
   }
   .work .components .it-out .work-text {
-    margin-left: 0px;
+    width: 400px;
+    margin-left: 30px;
   }
   .work .components .it-out .work-text h1 {
     font-family: "Montserrat";
@@ -309,9 +332,7 @@
     color: #FFFFFF;
   }
   .work .components .it-out .work-text .zayav {
-    width: 250px;
-    height: 50px;
-    left: 20px;
+    float: right;
   }
   .work .components .it-out .work-text .zayav a {
     font-family: "Montserrat";
@@ -325,7 +346,13 @@
   .work .components .it-out .picture {
     display: none;
   }
+  .cases {
+    display: flex;
+    justify-content: center;
+  }
   .cases .head {
+    width: 100%;
+    height: 88px;
     font-family: "Montserrat";
     font-style: normal;
     font-weight: 400;
@@ -333,12 +360,14 @@
     line-height: 34px;
     text-align: center;
     color: #FFFFFF;
+    margin-top: 130px;
+    margin-bottom: 50px;
   }
   .cases .case-items {
     display: block;
   }
   .cases .case-items .example {
-    margin-left: 20px;
+    padding-top: 10px;
   }
   .zav .head {
     font-family: "Montserrat";
