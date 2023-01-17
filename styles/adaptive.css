@@ -82,7 +82,7 @@
     margin-left: 9px;
   }
   .stack .second-block .items img.plus {
-    width: 26.6px;
+    width: 28.6px;
     height: 15px;
     margin-top: 15px;
     margin-left: 9px;
@@ -115,6 +115,7 @@
     background: rgba(255, 255, 255, 0.05);
     box-shadow: 4px 4px 50px rgba(0, 0, 0, 0.25);
     border-radius: 30px;
+    margin-left: 11px;
   }
   .services .cat .cat-item .main {
     width: 163px;
@@ -152,5 +153,207 @@
   .services .cat .cat-item .card img {
     width: 254px;
     height: 254px;
+  }
+  .director {
+    display: block;
+    margin-top: 150px;
+  }
+  .director .main .picture {
+    display: none;
+  }
+  .director .main .desc .greetings .text {
+    width: 328px;
+    height: 360px;
+    margin-left: 211px;
+  }
+  .director .main .desc .greetings .text p {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: justify;
+    color: #FFFFFF;
+  }
+  .director .main .desc .greetings .alex {
+    margin-left: 211px;
+  }
+  .director .main .desc .greetings .alex h1 {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 34px;
+    text-align: justify;
+    color: #FFFFFF;
+  }
+  .director .main .desc .greetings .alex p {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: justify;
+    color: #FFFFFF;
+  }
+  .director .main .desc .greetings .btn-block {
+    display: block;
+    margin-left: 211px;
+  }
+  .director .main .desc .greetings .btn-block .tg {
+    width: 250px;
+    height: 50px;
+    margin-bottom: 20px;
+  }
+  .director .main .desc .greetings .btn-block .tg a {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: #FFFFFF;
+  }
+  .director .main .desc .greetings .btn-block .wap {
+    width: 250px;
+    height: 50px;
+  }
+  .director .main .desc .greetings .btn-block .wap a {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: #FFFFFF;
+  }
+  .work .components .head {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 34px;
+    color: #FFFFFF;
+  }
+  .work .components .key {
+    width: 400px;
+    margin-left: 0px;
+    border-radius: 0px;
+  }
+  .work .components .key .work-text {
+    margin-left: 0px;
+  }
+  .work .components .key .work-text h1 {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+  }
+  .work .components .key .work-text ul {
+    margin-bottom: 50px;
+  }
+  .work .components .key .work-text ul li {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 130%;
+    text-align: justify;
+    color: #FFFFFF;
+  }
+  .work .components .key .work-text .zayav {
+    width: 250px;
+    height: 50px;
+    left: 20px;
+  }
+  .work .components .key .work-text .zayav a {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: #FFFFFF;
+  }
+  .work .components .key .picture {
+    display: none;
+  }
+  .work .components .it-out {
+    width: 400px;
+    margin-left: 0px;
+    border-radius: 0px;
+  }
+  .work .components .it-out .work-text {
+    margin-left: 0px;
+  }
+  .work .components .it-out .work-text h1 {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+  }
+  .work .components .it-out .work-text ul {
+    margin-bottom: 50px;
+  }
+  .work .components .it-out .work-text ul li {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 130%;
+    text-align: justify;
+    color: #FFFFFF;
+  }
+  .work .components .it-out .work-text .zayav {
+    width: 250px;
+    height: 50px;
+    left: 20px;
+  }
+  .work .components .it-out .work-text .zayav a {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: #FFFFFF;
+  }
+  .work .components .it-out .picture {
+    display: none;
+  }
+  .cases .head {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 34px;
+    text-align: center;
+    color: #FFFFFF;
+  }
+  .cases .case-items {
+    display: block;
+  }
+  .cases .case-items .example {
+    margin-left: 20px;
+  }
+  .zav .head {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #FFFFFF;
+    width: 328px;
+    height: 90px;
+  }
+  .zav .form {
+    display: block;
+  }
+  .zav .task textarea {
+    width: 300px;
   }
 }/*# sourceMappingURL=adaptive.css.map */
