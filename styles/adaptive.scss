@@ -460,13 +460,14 @@
        margin-right: auto;
        display: flex;
        margin-top: 10px;
+       margin-left: 16px;
         .head{
             font-family: 'Montserrat';
             font-style: normal;
             font-weight: 400;
             font-size: 20px;
             color: #FFFFFF;
-            width: 400px;
+            width: 372px;
             height: 90px;
             margin-bottom: 50px;
         }
@@ -489,24 +490,24 @@
                     font-size: 18px;
                     line-height: 22px;
                     color: #FFFFFF;
-                    margin-left: 16px;
+                    
                 }
                 .block{
                     display: flex;
                     justify-content: center;
-                    max-width: 100%;
+                    max-width: 400px;
                     .main{
                         max-width: 328px;
                         padding: 2px;
                     }
                     input{
-                        width: 300px;
+                        width: auto;
                         height: 50px;
                         border: 1px solid #FFFFFF;
                         border-radius: 10px;
                         margin-right: 10px;
                         padding-left: 37px;
-                        padding-right: 42px;
+                        padding-right: 0;
 
                         &::placeholder{
                             font-family: 'Montserrat';
@@ -568,11 +569,12 @@
                 width: 400px;
                 height: 90px;
                 margin-bottom: 20px;
-                margin-left: 16px;
+                
             }
             textarea{
-                width: 328px;
+                width: auto;
                 height: 230px;
+                max-width: 300px;
 
                 &::placeholder{   
                     font-family: 'Montserrat';
@@ -628,6 +630,8 @@
             }
             .btn{
                 margin-top: 70px;
+                width: 340px;
+                max-width: 400px;
                 p{
                     font-family: 'Montserrat';
                     font-style: normal;
