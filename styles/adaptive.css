@@ -701,4 +701,238 @@
     line-height: 24px;
     color: #FFFFFF;
   }
+  .partner .info {
+    width: 100%;
+    padding: 16px;
+  }
+  .partner .info .head {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    color: #FFFFFF;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    margin-left: 16px;
+  }
+  .partner .info .kind {
+    display: block;
+    padding: 16px;
+    text-align: center;
+  }
+  .partner .info .kind .marketing {
+    max-width: 420px;
+    width: 100%;
+    height: 380px;
+  }
+  .partner .info .kind .marketing h1 {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+    text-align: left;
+  }
+  .partner .info .kind .marketing p {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: justify;
+    color: #FFFFFF;
+  }
+  .partner .info .kind .studio {
+    display: block;
+    max-width: 420px;
+    width: 100%;
+    height: 300px;
+  }
+  .partner .info .kind .studio h1 {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+    text-align: left;
+  }
+  .partner .info .kind .studio p {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: justify;
+    color: #FFFFFF;
+  }
+  .partner .coop {
+    max-width: 344px;
+    width: 100%;
+    padding: 16px;
+    margin-top: 50px;
+  }
+  .partner .coop h1 {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+    width: 224px;
+    margin-bottom: 30px;
+  }
+  .partner .coop .menu {
+    max-width: 420px;
+    width: 100%;
+    height: 0px;
+  }
+  .partner .coop .menu ul li {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: justify;
+    color: #FFFFFF;
+  }
+  .partner .pay {
+    max-width: 352px;
+    width: 100%;
+    padding: 16px;
+    margin-top: 50px;
+  }
+  .partner .pay p {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: justify;
+    color: #FFFFFF;
+  }
+  .partner .pay h1 {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+    width: 224px;
+    margin-bottom: 30px;
+  }
+  .partner .pay .menu {
+    width: 336px;
+  }
+  .partner .pay .menu ul li {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: justify;
+    color: #FFFFFF;
+  }
+  .form {
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    padding: 16px;
+  }
+  .form .main {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .form .main .head {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+    margin-bottom: 50px;
+  }
+  .form .textfield {
+    display: block;
+  }
+  .form .textfield .first {
+    margin-right: 0px;
+  }
+  .form .textfield .first input {
+    width: 95%;
+    height: 50px;
+    left: 16px;
+    top: 1637px;
+    border: 1px solid #FFFFFF;
+    border-radius: 10px;
+  }
+  .form .textfield .first p {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+    text-align: left;
+  }
+  .form .textfield .first div {
+    margin-bottom: 50px;
+  }
+  .form .textfield .second div {
+    margin-bottom: 50px;
+  }
+  .form .textfield .second input {
+    width: 95%;
+    height: 50px;
+    left: 16px;
+    top: 1637px;
+    border: 1px solid #FFFFFF;
+    border-radius: 10px;
+  }
+  .form .textfield .second p {
+    text-align: left;
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+  }
+  .form .btn {
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    height: 50px;
+  }
+  .form .btn p {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    /* identical to box height */
+    text-align: center;
+    color: #000000;
+  }
+  .form .soc p {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+    margin-bottom: 50px;
+  }
+  .form .soc .social p {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: #FFFFFF;
+  }
 }/*# sourceMappingURL=adaptive.css.map */
