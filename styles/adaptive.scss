@@ -1017,5 +1017,211 @@
             }
         }
     }
+    .case{
+        display: flex;
+        justify-content: center;
+        padding: 16px;
+        height: 1500px;
+        margin-top: 50px;
+        .main{
+            width: 100%;
+            padding: 16px;
+            .head{   
+                font-family: 'Montserrat';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 24px;
+                line-height: 29px;
+                color: #FFFFFF;
+                
+            }
+            .container{
+                width: 100%;
+
+                .picture{
+                    overflow: hidden;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+
+                    img{
+                        overflow: hidden;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                    }
+                }
+                .desc{
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    margin-top: 50px;
+                    p{
+                        font-family: 'Montserrat';
+                        font-style: normal;
+                        font-weight: 500;
+                        font-size: 16px;
+                        line-height: 20px;
+                        text-align: justify;
+                        color: #FFFFFF;
+                    }
+                }
+                .tag{
+                    margin-top: 15px;
+
+                    ul{
+
+                        li{
+                            font-family: 'Montserrat';
+                            font-style: normal;
+                            font-weight: 600;
+                            font-size: 16px;
+                            line-height: 20px;
+                            text-align: justify;
+                            color: #D20C83;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .portfolio{
+        display: flex;
+        justify-content: center;
+        .head{
+            width: 100%;
+            height: 88px;      
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 28px;
+            line-height: 34px;
+            text-align: center;
+            color: #FFFFFF;
+            margin-top: 200px;
+            margin-bottom: 50px;
+        }
+        .case-items{
+            display: block;
+            padding: 12px;
+            .example{
+                padding-top: 10px;
+                .pic-cont{
+                    
+                }
+            }
+        }
+    }
+    .category{
+        margin-top: 50px;
+        display: flex;
+        justify-content: center;
+        padding: 16px;
+        .main{
+            width: 100%;
+
+            .head{
+                font-family: 'Montserrat';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 24px;
+                line-height: 29px;
+                color: #FFFFFF;
+            }
+            .categories{
+                margin-top: 40px;
+                display: grid;
+                grid-template-columns: 117px 120px 100px;
+
+                .cat{
+                    width: 110px;
+                    height: 55px;
+                    margin-bottom: 20px;
+                    p{
+                        font-family: 'Montserrat';
+                        font-style: normal;
+                        font-weight: 500;
+                        font-size: 16px;
+                        line-height: 20px;
+                        text-align: center;
+                        color: #FFFFFF;
+                        
+                    }
+                }
+            }
+        }
+    }
+    .blog{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        margin-top: 50px;
+        .head{
+            width: 100%;
+            height: 88px;      
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 28px;
+            line-height: 34px;
+            text-align: center;
+            color: #FFFFFF;
+            margin-top: 200px;
+            margin-bottom: 50px;
+        }
+        .blog-items{
+            display: block;
+            padding: 12px;
+            .item{
+                padding-top: 10px;
+                padding: 22px;
+                width: 328px;
+                height: 561px;
+                .pic-cont{
+                    overflow: hidden;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    width: 329px;
+                    height: 285.78px;
+                    padding: 0px;
+                    margin: 0px;
+                    border-radius: 30px;
+                    
+
+
+                    img{
+                        width: 433px;
+                        height: 279px;
+                    }
+                }
+                .desc{
+                    width: auto;
+                    margin: 0px;
+                    .date{
+
+                    }
+                    .h1{
+                        font-family: 'Montserrat';
+                        font-style: normal;
+                        font-weight: 700;
+                        font-size: 16px;
+                        line-height: 20px;
+                        color: #FFFFFF;
+                        
+                    }
+                    p{
+                        font-family: 'Montserrat';
+                        font-style: normal;
+                        font-weight: 500;
+                        font-size: 16px;
+                        line-height: 20px;
+                        text-align: justify;
+                        color: #FFFFFF;
+                    }
+                }
+            }
+        }
+    }
   }
   

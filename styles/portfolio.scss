@@ -5,39 +5,7 @@ body{
     background-color: #202032;
     overflow-x: hidden;
 }
-.header{
-    display: flex;
-    position: relative;
-    padding-left: 130px;
-    padding-right: 130px;
-    align-items: center;
-    z-index: 10;
-    .logo{
-        margin-left: 90px;
-    }
-    .menu{
-        width: auto;
-        margin-right: 231px;
-        justify-content: space-around;
-        ul{
-            display: flex;
-            justify-content: space-between;
-            li{
-                list-style: none;
-                margin-left: 40px;
-                a{
-                    font-family: 'Montserrat', sans-serif;
-                    font-style: normal;
-                    font-weight: 400;
-                    font-size: 20px;
-                    line-height: 24px;
-                    color: #FFFFFF;
-                    text-decoration: none;
-                }
-            }
-        }
-    }
-}
+
 .theme{
 
     .picture{

@@ -5,33 +5,44 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles/blog.css">
+    <link rel="stylesheet" href="styles/burger.css">
+    <link rel="stylesheet" href="styles/adaptive.css">
     <title>Блог</title>
 </head>
 <body>
-    <div class="header">
-        <div class="logo">
-            <a href="./index.html">
+    <div class="navbar">
+        <header class="header">
+            <a href="./index.html" class="header__logo">
                 <img src="./assets/img/logo.svg" alt="" srcset="">
             </a>
-        </div>
-        <div class="menu">
-            <ul>
-                <li><a href="" class="item">Услуги</a></li>
-                <li><a href="./partner.html" class="item">Работать с нами</a></li>
-                <li><a href="./portfolio.html" class="item">Кейсы</a></li>
-                <li><a href="" class="item">Отзывы</a></li>
-                <li><a href="" class="item">Контакты</a></li>
-                <li><a href="./blog.html" class="item">Блог</a></li>
-            </ul>
-        </div>
-        <div class="theme">
-                <input type="checkbox" name="" class="switch_input" id="">
-                <div class="picture">
-                    <img src="./assets/img/moon.png" alt="" srcset="">
-                    <img src="./assets/img/day.png" alt="" srcset="">
+            <div class="header__menu menu">
+                <div class="menu__icon">
+                    <span></span>
+                    <span></span>
+                    <span></span>
                 </div>
+                <nav class="menu__body">
+                    <ul class="menu__list">
+                        <li class="menu__item"><a href="#about" class="menu__link">Услуги</a></li>
+                        <li class="menu__item"><a href="./partner.html" class="menu__link">Работать с нами</a></li>
+                        <li class="menu__item"><a href="./portfolio.html" class="menu__link">Кейсы</a></li>
+                        <li class="menu__item"><a href="#contacts" class="menu__link">Отзывы</a></li>
+                        <li class="menu__item"><a href="#subscribe" class="menu__link">Контакты</a></li>
+                        <li class="menu__item"><a href="./blog.html" class="menu__link">Блог</a></li>
+                        <li class="menu__item">
+                            <div class="theme">
+                                <input type="checkbox" name="" class="switch_input" id="">
+                                <div class="picture">
+                                    <img src="./assets/img/moon.png" alt="" srcset="">
+                                    <img src="./assets/img/day.png" alt="" srcset="">
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
         </div>
-    </div>
     <div class="category">  
         <div class="main">
             <h1 class="head">
@@ -120,10 +131,12 @@
     <div class="footer">
         <div class="components">
         <div class="contact">
+            <div class="head">
             <div class="logo">
                 <img src="./assets/img/logo.svg" alt="" srcset="">
             </div>
             <p>IT — решения для вашего бизнеса</p>
+         </div>
             <div class="cont">
                 <ul>
                     <li> +7 (991) 539-14-43</li>
@@ -132,6 +145,7 @@
                 </ul>
             </div>
         </div>
+        <div class="twoblock">
         <div class="solutions">
             <h1 class="head">Решения</h1>
             <ul>
@@ -144,6 +158,7 @@
                 <li>Интеграция</li>
             </ul>
         </div>
+        <div class="threeblock">
         <div class="lang">
             <h1 class="head">Языки</h1>
             <ul>
@@ -160,7 +175,10 @@
                 <li>react</li>
             </ul>
         </div>
+        </div>
+        </div>
     </div>
     </div>
+    <script src="./js/burger.js"></script>
 </body>
 </html>
