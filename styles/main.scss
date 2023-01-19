@@ -12,8 +12,13 @@ body{
 }
 .firstscreen{
     height: 900px;
-    
 
+    .navbar{
+
+        .video{
+            display: none;
+        }
+    }
     .center{
     }
     .video{
@@ -38,16 +43,12 @@ body{
     }
     
     &::after{
-        
     }
     .main{
         position: relative;
         z-index: 20;
         top: -900px;
     }
-    
-        
-       
     }
     .main-text{
         margin-top: 200px;

@@ -134,17 +134,19 @@ footer {
 /*--------------------/Общие стили--------------------*/
 /*--------------------Шапка--------------------*/
 .header {
-  padding: 30px;
+  padding: 20px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   align-items: center;
   width: 100%;
 
+
 }
 
 .header__logo {
   padding: 5px;
+  
   text-decoration: none;
   margin-right: 90px;
   margin-left: 170px;
@@ -159,21 +161,22 @@ footer {
 @media (max-width: 768px) {
   .menu__icon {
     display: block;
-    width: 30px;
-    height: 18px;
+    width: 50px;
+    height: 32px;
     position: relative;
     z-index: 5;
     cursor: pointer;
     
   }
   .header {
-    padding: 30px;
+    padding: 20px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     justify-content: space-between;
     align-items: center;
     width: 100%;
+    padding-right: 30px;
   
   }
   .menu__icon span {
@@ -197,20 +200,19 @@ footer {
   .menu__icon.active span {
     -webkit-transform: scale(0);
             transform: scale(0);
-      top: -20px;
-      border: 5px ;
+            width: 50px;
   }
   .menu__icon.active span:first-child {
     -webkit-transform: rotate(-45deg);
             transform: rotate(-45deg);
-            top: 0px;
-            left: -300px;
+            top: 30px;
+            left: -317px;
   }
   .menu__icon.active span:last-child {
     -webkit-transform: rotate(45deg);
             transform: rotate(45deg);
-    top: 0px;
-    left: -300px;
+    top: 30px;
+    left: -317px;
   }
   .theme{
     margin-top: -496px;

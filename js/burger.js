@@ -1,7 +1,23 @@
 const menu = document.querySelector('.menu__body')
 const menuBtn = document.querySelector('.menu__icon')
+const header = document.querySelector('.header')
+const vid = document.querySelector('.navbar .video');
 
 const body = document.body;
+
+window.addEventListener('scroll', function(){
+	var scroll = window.pageYOffset || document.documentElement.scrollTop,
+    height = scroll < 800 ? 1500 - Math.floor(scroll / 4 * 3) : 650;
+	if(height >= 1500){
+		header.classList.remove('scroll');
+		vid.style.display = "none";
+
+	}
+	if(height <1500){
+		header.classList.add('scroll');
+		vid.style.display = "";
+	}
+});
 
 if (menu && menuBtn) {
 	menuBtn.addEventListener('click', e => {
@@ -28,18 +44,3 @@ if (menu && menuBtn) {
 }
 
 /*===========================================*/
-
-const anchors = document.querySelectorAll('a[href*="#"]');
-
-anchors.forEach(anchor => {
-	anchor.addEventListener('click', event => {
-		event.preventDefault();
-
-		const blockID = anchor.getAttribute('href').substring(1);
-
-		document.getElementById(blockID).scrollIntoView({
-			behavior: 'smooth',
-			block: 'start'
-		})
-	})
-})

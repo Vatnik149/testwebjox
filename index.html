@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="styles/slider.css">
     <link rel="stylesheet" href="styles/burger.css">
     <link rel="stylesheet" href="styles/adaptive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <title>WebJox</title>
 </head>
 <body>
@@ -20,7 +21,8 @@
         </div>
         <div class="main">
             <div class="navbar">
-            <header class="header">
+                
+                <header class="header">
                 <a href="" class="header__logo">
                     <img src="./assets/img/logo.svg" alt="" srcset="">
                 </a>
@@ -32,11 +34,11 @@
                     </div>
                     <nav class="menu__body">
                         <ul class="menu__list">
-                            <li class="menu__item"><a href="#about" class="menu__link">Услуги</a></li>
+                            <li class="menu__item"><a href="#services" class="menu__link">Услуги</a></li>
                             <li class="menu__item"><a href="./partner.html" class="menu__link">Работать с нами</a></li>
                             <li class="menu__item"><a href="./portfolio.html" class="menu__link">Кейсы</a></li>
-                            <li class="menu__item"><a href="#contacts" class="menu__link">Отзывы</a></li>
-                            <li class="menu__item"><a href="#subscribe" class="menu__link">Контакты</a></li>
+                            <li class="menu__item"><a href="#reviews" class="menu__link">Отзывы</a></li>
+                            <li class="menu__item"><a href="#footer" class="menu__link">Контакты</a></li>
                             <li class="menu__item"><a href="./blog.html" class="menu__link">Блог</a></li>
                             <li class="menu__item">
                                 <div class="theme">
@@ -50,7 +52,13 @@
                         </ul>
                     </nav>
                 </div>
+                
             </header>
+            <div class="video">
+                <video autoplay muted loop id="myVideo">
+                    <source src="./assets/img/back.mp4" type="video/mp4">
+                  </video>
+            </div>
             </div>
         <div class="main-text">
             <h1>Мы — команда web-разработчиков,<br> которую Вы ищете</h1>
@@ -77,7 +85,7 @@
             <div class="items figma"><img class="fig" src="./assets/img/stack/figma.png" alt="" srcset=""></div>
         </div>
     </div>
-    <div class="services">
+    <div class="services" id="services">
         <div class="main">
         <h1 class="head">Наши услуги</h1>
         <div class="cat">
@@ -172,7 +180,7 @@
         </div>
     </div>
     </div>
-    <div class="director">
+    <div class="director" id="director">
         <div class="main">
         <div class="picture">
             <img src="./assets/img/descPicture.png" alt="" srcset="">
@@ -196,7 +204,7 @@
         </div>
     </div>
     </div>
-    <div class="work">
+    <div class="work" >
         <div class="components">
             <h1 class="head">Работа с нами</h1>
             <div class="key">
@@ -289,7 +297,7 @@
         </div>
     </div>
     </div>
-    <div class="reviews">
+    <div class="reviews" id="reviews">
         <h1 class="head">Отзывы</h1>
         <div class="slider">
             <section>
@@ -427,7 +435,7 @@
         </div>
     </div>
     </div>
-    <div class="footer">
+    <div class="footer" id="footer">
         <div class="components">
         <div class="contact">
             <div class="head">
@@ -481,5 +489,7 @@
     <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
     <script src="js/slider.js"></script>
     <script src="js/burger.js"></script>
+    <script src="./js/animate.js"></script>
+    <script src="./js/yakor.js"></script>
 </body>
 </html>

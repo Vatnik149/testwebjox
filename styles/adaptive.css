@@ -9,12 +9,49 @@
     max-width: 100%;
     overflow-x: hidden;
   }
+  .navbar {
+    position: fixed;
+    margin-top: -200px;
+    width: 100%;
+  }
+  .navbar menu {
+    width: 100%;
+  }
+  .navbar .menu__body.active {
+    width: 110%;
+  }
+  .navbar .video {
+    width: 100%;
+    height: 150px;
+    position: relative;
+    -webkit-clip-path: polygon(100% 0, 100% 31%, 0 100%, 0 0);
+    clip-path: polygon(100% 0, 100% 31%, 0 100%, 0 0);
+    background: url("../assets/img/back.mp4");
+    z-index: 1;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .navbar .container {
+    z-index: 20;
+    display: flex;
+  }
+  .header.scroll {
+    background-color: rgba(0, 0, 0, 0.1450980392);
+    z-index: 20;
+  }
+  header {
+    width: 100%;
+    height: 75px;
+    z-index: 20;
+  }
   .header__logo {
     margin-left: 0px;
     margin-right: 200px;
   }
   .main-text {
-    margin-top: 0px;
+    margin-top: 204;
   }
   .main-text h1 {
     font-family: "Montserrat";
@@ -64,8 +101,26 @@
     height: 900px;
   }
   .firstscreen .navbar {
+    display: block;
+  }
+  .firstscreen .navbar .video {
+    width: 100%;
+    height: 120px;
+    position: relative;
+    -webkit-clip-path: polygon(100% 0, 100% 31%, 0 100%, 0 0);
+    clip-path: polygon(100% 0, 100% 31%, 0 100%, 0 0);
+    background: url("../assets/img/back.mp4");
+    z-index: 1;
+    overflow: hidden;
     display: flex;
     justify-content: center;
+    align-items: center;
+    margin-top: -116px;
+  }
+  .firstscreen header {
+    z-index: 10;
+    position: relative;
+    left: -30px;
   }
   .stack .first-block {
     height: 50px;
@@ -551,13 +606,15 @@
   }
   .zav .sending {
     display: flex;
-    max-width: 400px;
-    width: 420px;
+    max-width: 420px;
+    width: 100%;
+    padding: 16px;
+    max-width: 420px;
     justify-content: center;
   }
   .zav .sending .main {
-    max-width: 356px;
-    width: 354px;
+    max-width: 420px;
+    width: 100%;
   }
   .zav .sending input[type=checkbox]:not(:checked):after {
     left: -4px;
@@ -587,17 +644,17 @@
     font-family: "Montserrat";
     font-style: normal;
     font-weight: 500;
-    font-size: 16px;
+    font-size: 14px;
     line-height: 20px;
     -webkit-text-decoration-line: underline;
             text-decoration-line: underline;
     color: #2DB7D6;
     margin-left: 60px;
-    width: 420px;
+    margin-top: 12px;
   }
   .zav .sending .btn {
     margin-top: 70px;
-    width: 340px;
+    width: 100%;
     max-width: 400px;
   }
   .zav .sending .btn p {
@@ -926,14 +983,23 @@
     color: #FFFFFF;
     margin-bottom: 50px;
   }
+  .form .soc .social {
+    display: block;
+  }
+  .form .soc .social div {
+    width: 100%;
+    margin-bottom: 20px;
+    height: 70px;
+  }
   .form .soc .social p {
     font-family: "Montserrat";
     font-style: normal;
     font-weight: 600;
-    font-size: 16px;
+    font-size: 18px;
     line-height: 20px;
     text-align: center;
     color: #FFFFFF;
+    margin-top: 26px;
   }
   .case {
     display: flex;
